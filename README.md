@@ -66,6 +66,30 @@ markdown
 ![V20 Alife Pilot — Key Results (Dubosson Theory)](graphs/summary_v20.png)
 
 *Note: These are computational toy models, not empirical evidence. They illustrate the logical consequences o
+markdown
+
+## Comparison with Existing Artificial Life Models
+
+This pilot is deliberately minimal and grounded in Dubosson’s philosophical and theoretical framework. Below is a brief comparison with some well-known Artificial Life systems:
+
+| Model                  | Year     | Core Mechanism                          | Key Focus                          | Similarity with Dubosson Pilot                  | Main Difference |
+|------------------------|----------|-----------------------------------------|------------------------------------|--------------------------------------------------|-----------------|
+| **Tierra** (Tom Ray)   | 1991     | Self-replicating machine code in memory | Open-ended evolution               | Digital organisms competing for resources        | No embodiment, no primitive thought, no explicit senescence |
+| **Avida** (Ofria et al.) | 1993–   | Digital genomes with explicit fitness   | Evolutionary dynamics              | Genome, mutation, selection                    | Highly engineered fitness functions; no membrane-level cognition |
+| **PolyWorld** (Yaeger) | 1994     | Embodied agents with neural networks    | Ecology + neural evolution         | Embodied agents, resource competition          | Complex neural networks instead of membrane-based primitive thought |
+| **Autopoiesis models** (Maturana/Varela, Bourgine & Stewart) | 1970s–   | Self-maintaining networks               | Autopoiesis & cognition            | Strong focus on self-maintenance and unity     | Mostly theoretical; our pilot adds explicit “good/bad” judgment and senescence |
+| **Artificial Chemistry** (Fontana, Dittrich, etc.) | 1990s–   | Reactive molecules in a soup            | Chemical self-organisation         | Chemistry-like rules                           | No explicit membrane or primitive thought |
+
+### What makes the Dubosson Pilot distinctive
+
+- **Primitive thought at the membrane level**: The “good for me / bad for me” judgment is not an add-on but the fundamental mechanism of the system.
+- **Senescence as an evolved trait**: Death is not just a side-effect of resource limits but can be “invented” by the system itself to maintain long-term continuation when niches become too narrow.
+- **Autopoiesis + internal cognition**: The model tries to combine self-maintenance with a minimal form of anticipation and decision-making from the very first protocell.
+
+These simulations are **not empirical proofs** but computational explorations. They suggest that an internal organising principle (primitive thought + autopoiesis + regulated senescence) may be necessary to sustain open-ended dynamics beyond what pure Darwinian selection achieves in simple landscapes.
+
+We invite researchers to critique these assumptions, extend the model, or compare it more rigorously with existing frameworks.
+
 
 
  
