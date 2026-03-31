@@ -1,5 +1,5 @@
 # thought-mechanism-alife-pilot
-markdown
+ markdown
 
 # Artificial Life Pilot — Testing Dubosson’s Theory of Primitive Thought
 
@@ -18,14 +18,14 @@ The central hypothesis is that **primitive thought** ("good for me / bad for me"
 
 **These are computational toy models, not empirical scientific proofs.**
 
-All simulations are highly simplified (short genome, minimal physics, abstract chemistry). They do **not** constitute experimental evidence for the origin of life, the emergence of thought, or biological evolution.  
+All simulations are highly simplified (short genome, minimal physics, abstract chemistry). They do **not** constitute experimental evidence for the origin of life, the emergence of thought, or biological evolution.
 
 They are exploratory tools intended to:
 - Illustrate the logical consequences of the proposed mechanism
 - Test whether the internal "good/bad" judgment + autopoiesis can sustain open-ended dynamics
 - Highlight strengths and limitations of the theory
 
-We strongly encourage researchers in biology, complex systems, artificial life, philosophy of biology, and cognitive science to **criticise, improve, extend, or compare** this work with existing models (autopoiesis, artificial chemistry, Tierra, Avida, evolutionary game theory, etc.).
+We strongly encourage researchers in biology, complex systems, artificial life, philosophy of biology, and cognitive science to **criticise, improve, extend, or compare** this work with existing models.
 
 ## Summary of the Pilot (V1 → V20)
 
@@ -43,54 +43,39 @@ We iteratively built a minimal Artificial Life model based on:
 - Pure Darwinian selection + mutation quickly leads to stable plateaus.
 - Adding the internal "good/bad" mechanism creates strong self-organisation and resilience.
 - When niches become too narrow, **senescence** prevents freezing and restores dynamic turnover.
-- The most dynamic behaviour appears in later versions with modulated senescence, catastrophes, and strong competition.
-
-The model suggests that **Darwinian selection alone is not sufficient** to maintain open-ended evolution in simple landscapes. An internal auto-organising force (primitive thought + autopoiesis + senescence) appears necessary for continued dynamism.
-
-## Repository Contents
-
-- `alife_v20.py` → The final V20 simulation code
-- `HOW_TO_FIND_A_MODEL_OF_THE_MECHANISM_OF_THOUGHT.md` → Full original theory text
-- `README.md` → This file
-
-## How to Run
-
-```bash
-pip install numpy
-python alife_v20.py
-
-markdown
 
 ## Key Results from V20 Simulation
 
 ![V20 Alife Pilot — Key Results (Dubosson Theory)](graphs/summary_v20.png)
 
-*Note: These are computational toy models, not empirical evidence. They illustrate the logical consequences o
-markdown
+*Note: These are computational toy models, not empirical evidence. They illustrate the logical consequences of the theory and are meant to encourage researchers to reflect, criticise, improve, or compare with existing models.*
 
-## Comparison with Existing Artificial Life Models
+## Comparison with Existing Protocell and Artificial Life Models
 
-This pilot is deliberately minimal and grounded in Dubosson’s philosophical and theoretical framework. Below is a brief comparison with some well-known Artificial Life systems:
+| Model / Group                  | Year     | Core Mechanism                              | Key Focus                              | Similarity with Dubosson Pilot                     | Main Difference |
+|--------------------------------|----------|---------------------------------------------|----------------------------------------|----------------------------------------------------|-----------------|
+| Szostak Lab                    | 2015–2026| Fatty acid vesicles + RNA replication       | Growth, division, replication          | Membrane as central actor                          | Chemistry-focused, no explicit "good/bad" judgment |
+| Deamer / Damer                 | 2015–2025| Hydrothermal protocells                     | Wet-dry cycles, polymerisation         | Primitive compartments                             | Environmental cycles instead of internal cognition |
+| Luisi / Walde                  | 2000s–2025| Self-reproducing vesicles                   | Autopoiesis                            | Strong overlap on self-maintenance                 | Experimental chemistry, less emphasis on primitive thought |
+| This Dubosson Pilot (V20)      | 2026     | Membrane-based "good/bad" judgment + senescence | Primitive thought + autopoiesis        | —                                                  | Explicit primitive cognition + senescence as evolved trait |
 
-| Model                  | Year     | Core Mechanism                          | Key Focus                          | Similarity with Dubosson Pilot                  | Main Difference |
-|------------------------|----------|-----------------------------------------|------------------------------------|--------------------------------------------------|-----------------|
-| **Tierra** (Tom Ray)   | 1991     | Self-replicating machine code in memory | Open-ended evolution               | Digital organisms competing for resources        | No embodiment, no primitive thought, no explicit senescence |
-| **Avida** (Ofria et al.) | 1993–   | Digital genomes with explicit fitness   | Evolutionary dynamics              | Genome, mutation, selection                    | Highly engineered fitness functions; no membrane-level cognition |
-| **PolyWorld** (Yaeger) | 1994     | Embodied agents with neural networks    | Ecology + neural evolution         | Embodied agents, resource competition          | Complex neural networks instead of membrane-based primitive thought |
-| **Autopoiesis models** (Maturana/Varela, Bourgine & Stewart) | 1970s–   | Self-maintaining networks               | Autopoiesis & cognition            | Strong focus on self-maintenance and unity     | Mostly theoretical; our pilot adds explicit “good/bad” judgment and senescence |
-| **Artificial Chemistry** (Fontana, Dittrich, etc.) | 1990s–   | Reactive molecules in a soup            | Chemical self-organisation         | Chemistry-like rules                           | No explicit membrane or primitive thought |
+## Invitation to Researchers
 
-### What makes the Dubosson Pilot distinctive
+This work is deliberately minimal and transparent. We invite the scientific community to:
+- Critique the assumptions and simplifications
+- Extend the model (real chemistry, spatial structure, more realistic metabolism, etc.)
+- Compare with existing frameworks (Maturana/Varela autopoiesis, Kauffman autocatalytic sets, Tierra, Avida, etc.)
+- Publish improvements, counter-examples, or alternative implementations
 
-- **Primitive thought at the membrane level**: The “good for me / bad for me” judgment is not an add-on but the fundamental mechanism of the system.
-- **Senescence as an evolved trait**: Death is not just a side-effect of resource limits but can be “invented” by the system itself to maintain long-term continuation when niches become too narrow.
-- **Autopoiesis + internal cognition**: The model tries to combine self-maintenance with a minimal form of anticipation and decision-making from the very first protocell.
+Any serious scientific contribution is welcome.
 
-These simulations are **not empirical proofs** but computational explorations. They suggest that an internal organising principle (primitive thought + autopoiesis + regulated senescence) may be necessary to sustain open-ended dynamics beyond what pure Darwinian selection achieves in simple landscapes.
+## License
+MIT License — you are free to use, modify, and build upon this work.
 
-We invite researchers to critique these assumptions, extend the model, or compare it more rigorously with existing frameworks.
+---
+
+**Maurice Dubosson**  
+March 2026
 
 
-
- 
 
