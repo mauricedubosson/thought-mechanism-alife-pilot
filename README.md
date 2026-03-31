@@ -59,5 +59,14 @@ The model suggests that **Darwinian selection alone is not sufficient** to maint
 pip install numpy
 python alife_v20.py
 
+markdown
+
+## Key Results from V20 Simulation
+
+![V20 Alife Pilot — Key Results (Dubosson Theory)](graphs/summary_v20.png)
+
+*Note: These are computational toy models, not empirical evidence. They illustrate the logical consequences o
+
+
  
 
