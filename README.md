@@ -59,3 +59,5 @@ The model suggests that **Darwinian selection alone is not sufficient** to maint
 pip install numpy
 python alife_v20.py
 
+<img width="940" height="799" alt="image" src="https://github.com/user-attachments/assets/758eb20a-599e-46f2-a612-704c08a55e4a" />
+
